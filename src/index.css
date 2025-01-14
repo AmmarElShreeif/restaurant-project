@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+ --size: 0 1rem;
+}
+a {
+ text-decoration: none;
+}
+.main {
+ min-height: 100vh;
+}
+.not-found {
+ min-height: 70vh;
+}
+.form-control {
+ color: white !important;
+ border: none;
+}
+.form-control:focus {
+ color: white;
+ border: 1px solid yellow !important;
+}
+.contact-info h5 {
+ margin-top: 1.5rem;
+ color: #c7c7c7;
+}
+.contact-info p {
+ margin: 0;
+ color: #777;
+}
+.hero-section {
+ position: relative;
+ height: 70vh;
+ color: #fff;
+ overflow: hidden;
+}
+.hero-image {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.overlay {
+ position: absolute;
+ inset: 0;
+ display: flex;
+ flex-direction: column;
+ padding: 4rem;
+ justify-content: center;
+ align-items: start;
+ background: rgba(0, 0, 0, 0.5);
+ color: #fff;
+}
+.shopping-cart,
+.shopping-carts {
+ padding-right: 0.6rem;
+}
+.shopping-carts {
+ display: none;
+}
+@media (max-width: 768px) {
+ .hero-section {
+  height: auto;
+ }
+
+ .hero-image {
+  height: 50vh;
+ }
+ .overlay {
+  padding: 2rem;
+ }
+ .shopping-cart {
+  display: none;
+ }
+ .shopping-carts {
+  display: flex;
+ }
+ .review-section {
+  margin: var(--size);
+ }
+ footer {
+  padding: 0 0.5rem;
+ }
+ .menu-section {
+  margin: var(--size);
+ }
+ .about-section {
+  padding: var(--size);
+ }
+ .contact-section {
+  padding: var(--size);
+ }
+ .carts-section {
+  padding: 0 0.5rem;
+ }
+ .carts-section .image {
+  display: none;
+ }
+}
