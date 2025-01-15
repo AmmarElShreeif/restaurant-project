@@ -1,4 +1,4 @@
-# Restaurant ًebsite
+# Restaurant Website
 
 
 <br/>
@@ -19,7 +19,7 @@
     npm run dev
 ```
 
-## Learn More
+## Tools Used
 
 - **React Js** [Docs](https://react.dev/learn)
 - **React Bootstrap** [Docs](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
