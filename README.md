@@ -22,6 +22,5 @@
 ## Tools Used
 
 - **React Js** [Docs](https://react.dev/learn)
-- **React Bootstrap** [Docs](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
-- **Bootstrap** [Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- **Redux** [Docs](https://redux.js.org/introduction/getting-started)
+- **API** [Docs](https://coingecko.com/api/v3/coins/markets)
+- **firebase** [Docs](https://firebase.google.com/docs/auth)
